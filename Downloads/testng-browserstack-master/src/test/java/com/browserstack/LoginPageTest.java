@@ -53,7 +53,7 @@ public class LoginPageTest extends SeleniumTest {
         // navigate to bstackdemo
         LoginPage loginPage = new LoginPage();
         loginPage.load(driver);
-        System.out.println("[[BSTACK_SET_CUSTOM_TAG||ID=TC-103]]");
+        System.out.println("[[BSTACK_SET_CUSTOM_TAG||ID=TC-101]]");
 //        // verify header
         Assert.assertTrue(loginPage.verifyHeader());
         Assert.assertTrue(loginPage.verifySignButtonIsVisible());
