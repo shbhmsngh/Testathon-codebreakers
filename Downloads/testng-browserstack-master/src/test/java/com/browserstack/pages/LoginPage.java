@@ -1,6 +1,7 @@
 package com.browserstack.pages;
 
 import com.browserstack.SeleniumTest;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -25,10 +26,13 @@ public class LoginPage extends SeleniumTest {
     @FindBy(xpath = "//*[@id='Sign In' or text()='Sign In']")
     private WebElement signInButton; // Adjusted locator assuming correct XPath
 
-    // Loads the login page
-    public void load() {
-        driver.get("https://testathon.live/");
+
+    public void load(WebDriver driver) {
+        this.driver= driver;
+        this.driver.get("https://testathon.live/");
+
     }
+
 
     public boolean verifyHeader() {
         return headerLogo.isDisplayed();

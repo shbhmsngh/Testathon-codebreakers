@@ -1,9 +1,11 @@
 package com.browserstack;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BStackLocalTest extends SeleniumTest {
+
 
     @Test
     public void test() throws Exception {

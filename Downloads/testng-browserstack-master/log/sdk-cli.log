@@ -4578,3 +4578,3006 @@
 2025-07-26T08:05:04.164Z CLI info  [shubhamsingh_afHsCG]  [lx9fnacydocaxvidvqxr7eaydbd9ixjw0eo1mhha]  [8892f742-cdd1-4731-b15f-3c366f08abc2]  [PRODUCTION] Making GET request to https://api.browserstack.com
 2025-07-26T08:05:05.117Z CLI info  [shubhamsingh_afHsCG]  [lx9fnacydocaxvidvqxr7eaydbd9ixjw0eo1mhha]  [8892f742-cdd1-4731-b15f-3c366f08abc2]  [PRODUCTION] Making POST request to https://eds.browserstack.com
 2025-07-26T08:05:06.204Z CLI info [main]  [shubhamsingh_afHsCG]  [lx9fnacydocaxvidvqxr7eaydbd9ixjw0eo1mhha]  [8892f742-cdd1-4731-b15f-3c366f08abc2]  Received graceful signal termination, performing cleanup
+2025-07-26T08:07:53.480Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:07:53.701Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:07:53.718Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Starting testhub from 13377:0
+2025-07-26T08:07:53.719Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [b86e3815-28b6-4ed7-bad1-0b20d102a991]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:07:53.719Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#10","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:07:53.719Z CLI info  [shubhamsingh_afHsCG]   [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:07:54.368Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [b86e3815-28b6-4ed7-bad1-0b20d102a991]  startBuild: response=yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf
+2025-07-26T08:07:54.370Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:08:01.925Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:08:02.248Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:08:02.248Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:08:02.249Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:08:06.003Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:08:05.988Z'
+  },
+  logs: []
+} to 13377:0
+2025-07-26T08:08:06.168Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:08:06.157Z',
+      uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf'
+    }
+  ]
+} to 13377:0
+2025-07-26T08:08:06.176Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:08:06.174Z',
+      uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf'
+    }
+  ]
+} to 13377:0
+2025-07-26T08:08:06.181Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:08:06.180Z',
+      uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf'
+    }
+  ]
+} to 13377:0
+2025-07-26T08:08:06.216Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:08:06.214Z',
+      uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf'
+    }
+  ]
+} to 13377:0
+2025-07-26T08:08:06.375Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:08:05.988Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13377:0
+2025-07-26T08:08:06.376Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:08:12.778Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:08:05.988Z',
+    finished_at: '2025-07-26T08:08:12.775Z'
+  },
+  logs: []
+} to 13377:0
+2025-07-26T08:08:12.799Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:08:12.794Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13377:0
+2025-07-26T08:08:14.389Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '1bc7c07f-3558-478a-a64e-32521ce1e3cf',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:08:05.988Z',
+      finished_at: '2025-07-26T08:08:12.775Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:08:12.794Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 13377:0
+2025-07-26T08:08:14.394Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:08:15.895Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:08:15.892Z',
+      uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      kind: 'TEST_LOG',
+      message: '"[[BSTACK_SET_CUSTOM_TAG||ID=TC-972811]]"',
+      level: 'INFO',
+      test_run_uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097'
+    }
+  ]
+} to 13377:0
+2025-07-26T08:08:16.382Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 13377:0
+2025-07-26T08:08:16.383Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:08:17.509Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    integrations: { browserstack: [Object] }
+  }
+} to 13377:0
+2025-07-26T08:08:17.517Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T13:38:15.904934","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T13:38:12.794701","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"e2f61a02-24b1-47b5-87ed-954d99128097","test_ended_at":"2025-07-26T13:38:15.905976","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplication","test_hook_state":"sdk:hook:7e2e3347","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T13:38:05.988786","hook_id":"1bc7c07f-3558-478a-a64e-32521ce1e3cf","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T13:38:12.775388","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"1bc7c07f-3558-478a-a64e-32521ce1e3cf","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplication","logs":[]}
+2025-07-26T08:08:17.517Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 3111,
+    started_at: '2025-07-26T08:08:12.794Z',
+    finished_at: '2025-07-26T08:08:15.905Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ '1bc7c07f-3558-478a-a64e-32521ce1e3cf' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13377:0
+2025-07-26T08:08:17.526Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '6a04879c-3b9b-45fa-ab43-be47bc1c9774',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:08:17.524Z'
+  },
+  logs: []
+} to 13377:0
+2025-07-26T08:08:18.384Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 3111,
+      started_at: '2025-07-26T08:08:12.794Z',
+      finished_at: '2025-07-26T08:08:15.905Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '6a04879c-3b9b-45fa-ab43-be47bc1c9774',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:08:17.524Z'
+    },
+    logs: []
+  }
+] to 13377:0
+2025-07-26T08:08:18.388Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:08:19.059Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '6a04879c-3b9b-45fa-ab43-be47bc1c9774',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:08:17.524Z',
+    finished_at: '2025-07-26T08:08:19.051Z'
+  },
+  logs: []
+} to 13377:0
+2025-07-26T08:08:20.386Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '6a04879c-3b9b-45fa-ab43-be47bc1c9774',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: 'e2f61a02-24b1-47b5-87ed-954d99128097',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:08:17.524Z',
+      finished_at: '2025-07-26T08:08:19.051Z'
+    },
+    logs: []
+  }
+] to 13377:0
+2025-07-26T08:08:20.388Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:08:21.248Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:08:21.955Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  stopBuild: yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf request={"finished_at":"2025-07-26T08:08:19.427Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:08:21.957Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:08:21.959Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Visit https://observability.browserstack.com/builds/yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:08:26.524Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:08:26.854Z CLI info  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:08:27.831Z CLI info [main]  [shubhamsingh_afHsCG]  [yguv7nt2locbuqjn7ctwol40i9c4wjewh4afzcvf]  [b86e3815-28b6-4ed7-bad1-0b20d102a991]  Received graceful signal termination, performing cleanup
+2025-07-26T08:10:23.323Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:10:23.551Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:10:23.571Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [b8839235-44a8-46de-9780-a950c3764737]  Starting testhub from 13462:0
+2025-07-26T08:10:23.572Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [b8839235-44a8-46de-9780-a950c3764737]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:10:23.572Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#11","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:10:23.572Z CLI info  [shubhamsingh_afHsCG]   [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:10:24.524Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [b8839235-44a8-46de-9780-a950c3764737]  startBuild: response=byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb
+2025-07-26T08:10:24.526Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:10:33.096Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:10:33.384Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:10:33.386Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:10:33.387Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:10:36.922Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:10:36.911Z'
+  },
+  logs: []
+} to 13462:0
+2025-07-26T08:10:37.044Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:10:37.034Z',
+      uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7'
+    }
+  ]
+} to 13462:0
+2025-07-26T08:10:37.052Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:10:37.050Z',
+      uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7'
+    }
+  ]
+} to 13462:0
+2025-07-26T08:10:37.057Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:10:37.055Z',
+      uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7'
+    }
+  ]
+} to 13462:0
+2025-07-26T08:10:37.087Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:10:37.085Z',
+      uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7'
+    }
+  ]
+} to 13462:0
+2025-07-26T08:10:38.533Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:10:36.911Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13462:0
+2025-07-26T08:10:38.534Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:10:43.978Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:10:36.911Z',
+    finished_at: '2025-07-26T08:10:43.975Z'
+  },
+  logs: []
+} to 13462:0
+2025-07-26T08:10:43.988Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:10:43.986Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13462:0
+2025-07-26T08:10:44.069Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:10:44.067Z',
+      uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      kind: 'TEST_LOG',
+      message: '"[[BSTACK_SET_CUSTOM_TAG||ID=TC-972811]]"',
+      level: 'INFO',
+      test_run_uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815'
+    }
+  ]
+} to 13462:0
+2025-07-26T08:10:44.534Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '75a86d9c-a668-4871-ae1f-585b94f8d1a7',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:10:36.911Z',
+      finished_at: '2025-07-26T08:10:43.975Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:10:43.986Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13462:0
+2025-07-26T08:10:44.535Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:10:46.560Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    integrations: { browserstack: [Object] }
+  }
+} to 13462:0
+2025-07-26T08:10:46.567Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T13:40:44.073070","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T13:40:43.986195","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"71e7e657-4cfc-4a78-85c2-225b9e71d815","test_ended_at":"2025-07-26T13:40:44.073587","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplication","test_hook_state":"sdk:hook:509d72e","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T13:40:36.911717","hook_id":"75a86d9c-a668-4871-ae1f-585b94f8d1a7","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T13:40:43.975063","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"75a86d9c-a668-4871-ae1f-585b94f8d1a7","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplication","logs":[]}
+2025-07-26T08:10:46.567Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 87,
+    started_at: '2025-07-26T08:10:43.986Z',
+    finished_at: '2025-07-26T08:10:44.073Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ '75a86d9c-a668-4871-ae1f-585b94f8d1a7' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13462:0
+2025-07-26T08:10:46.577Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'baed94c0-3b6b-461c-a38c-752b136d1048',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:10:46.574Z'
+  },
+  logs: []
+} to 13462:0
+2025-07-26T08:10:48.223Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'baed94c0-3b6b-461c-a38c-752b136d1048',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:10:46.574Z',
+    finished_at: '2025-07-26T08:10:48.220Z'
+  },
+  logs: []
+} to 13462:0
+2025-07-26T08:10:48.537Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 87,
+      started_at: '2025-07-26T08:10:43.986Z',
+      finished_at: '2025-07-26T08:10:44.073Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'baed94c0-3b6b-461c-a38c-752b136d1048',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:10:46.574Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'baed94c0-3b6b-461c-a38c-752b136d1048',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '71e7e657-4cfc-4a78-85c2-225b9e71d815',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:10:46.574Z',
+      finished_at: '2025-07-26T08:10:48.220Z'
+    },
+    logs: []
+  }
+] to 13462:0
+2025-07-26T08:10:48.538Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:10:49.540Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:10:50.252Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  stopBuild: byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb request={"finished_at":"2025-07-26T08:10:48.729Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:10:50.255Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:10:50.258Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Visit https://observability.browserstack.com/builds/byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:10:54.329Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:10:54.695Z CLI info  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:10:55.746Z CLI info [main]  [shubhamsingh_afHsCG]  [byrkfnumypjsyakyu2krr8vccvzfc8jywzcxnjpb]  [b8839235-44a8-46de-9780-a950c3764737]  Received graceful signal termination, performing cleanup
+2025-07-26T08:11:04.700Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:11:04.924Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:11:04.933Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [6add699e-e78f-4514-841c-f193490233a4]  Starting testhub from 13500:0
+2025-07-26T08:11:04.933Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [6add699e-e78f-4514-841c-f193490233a4]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:11:04.933Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#12","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:11:04.933Z CLI info  [shubhamsingh_afHsCG]   [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:11:06.200Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [6add699e-e78f-4514-841c-f193490233a4]  startBuild: response=z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4
+2025-07-26T08:11:06.202Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:11:12.959Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:11:13.229Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:11:13.231Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:11:13.231Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:11:16.796Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:11:16.787Z'
+  },
+  logs: []
+} to 13500:0
+2025-07-26T08:11:16.912Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:11:16.904Z',
+      uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d'
+    }
+  ]
+} to 13500:0
+2025-07-26T08:11:16.921Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:11:16.919Z',
+      uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d'
+    }
+  ]
+} to 13500:0
+2025-07-26T08:11:16.926Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:11:16.925Z',
+      uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d'
+    }
+  ]
+} to 13500:0
+2025-07-26T08:11:16.955Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:11:16.953Z',
+      uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d'
+    }
+  ]
+} to 13500:0
+2025-07-26T08:11:18.211Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:11:16.787Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13500:0
+2025-07-26T08:11:18.212Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:11:23.844Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:11:16.787Z',
+    finished_at: '2025-07-26T08:11:23.841Z'
+  },
+  logs: []
+} to 13500:0
+2025-07-26T08:11:23.854Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:11:23.851Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13500:0
+2025-07-26T08:11:24.212Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:11:16.787Z',
+      finished_at: '2025-07-26T08:11:23.841Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:11:23.851Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 13500:0
+2025-07-26T08:11:24.213Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:11:25.573Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    integrations: { browserstack: [Object] }
+  }
+} to 13500:0
+2025-07-26T08:11:25.580Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T13:41:23.934592","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T13:41:23.851964","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null","\tat com.browserstack.pages.LoginPage.load(LoginPage.java:36)","\tat com.browserstack.LoginPageTest.LoginIntoApplication(LoginPageTest.java:12)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)","\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)","\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)","\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)","\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)","\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)","\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)","\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)","\tat org.testng.TestRunner.privateRun(TestRunner.java:794)","\tat org.testng.TestRunner.run(TestRunner.java:596)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)","\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1575)"]}],"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac","test_ended_at":"2025-07-26T13:41:23.935328","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplication","test_hook_state":"sdk:hook:cccfed9b","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null","test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"failed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T13:41:16.787270","hook_id":"6ec31d53-b4c5-4a6d-b778-17de8b8bee1d","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T13:41:23.841074","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"6ec31d53-b4c5-4a6d-b778-17de8b8bee1d","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplication","logs":[]}
+2025-07-26T08:11:25.581Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 84,
+    started_at: '2025-07-26T08:11:23.851Z',
+    finished_at: '2025-07-26T08:11:23.935Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ '6ec31d53-b4c5-4a6d-b778-17de8b8bee1d' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13500:0
+2025-07-26T08:11:25.590Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '6e4b9e0e-912c-42df-b496-02c63a8341b6',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:11:25.588Z'
+  },
+  logs: []
+} to 13500:0
+2025-07-26T08:11:26.213Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 84,
+      started_at: '2025-07-26T08:11:23.851Z',
+      finished_at: '2025-07-26T08:11:23.935Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '6e4b9e0e-912c-42df-b496-02c63a8341b6',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:11:25.588Z'
+    },
+    logs: []
+  }
+] to 13500:0
+2025-07-26T08:11:26.213Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:11:27.199Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '6e4b9e0e-912c-42df-b496-02c63a8341b6',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:11:25.588Z',
+    finished_at: '2025-07-26T08:11:27.194Z'
+  },
+  logs: []
+} to 13500:0
+2025-07-26T08:11:28.214Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '6e4b9e0e-912c-42df-b496-02c63a8341b6',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '0c9ff9a1-0e77-4df3-a5f6-21ae6cc474ac',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:11:25.588Z',
+      finished_at: '2025-07-26T08:11:27.194Z'
+    },
+    logs: []
+  }
+] to 13500:0
+2025-07-26T08:11:28.215Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:11:28.991Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:11:29.748Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  stopBuild: z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4 request={"finished_at":"2025-07-26T08:11:27.575Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:11:29.750Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:11:29.752Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Visit https://observability.browserstack.com/builds/z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4 to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:11:33.814Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:11:34.123Z CLI info  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:11:35.104Z CLI info [main]  [shubhamsingh_afHsCG]  [z6zpl1ltscisu8t2dksr26znxzzwjon3fxicd5r4]  [6add699e-e78f-4514-841c-f193490233a4]  Received graceful signal termination, performing cleanup
+2025-07-26T08:15:33.140Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:15:33.367Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:15:33.384Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  Starting testhub from 13622:0
+2025-07-26T08:15:33.384Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:15:33.384Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#13","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:15:33.385Z CLI info  [shubhamsingh_afHsCG]   [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:15:34.426Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  startBuild: response=uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj
+2025-07-26T08:15:34.428Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:15:42.472Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:15:42.766Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:15:42.767Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:15:42.767Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:15:46.210Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:15:47.194Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  stopBuild: uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj request={"finished_at":"2025-07-26T08:15:46.206Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:15:47.197Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:15:47.199Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  Visit https://observability.browserstack.com/builds/uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:15:51.760Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:15:52.101Z CLI info  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:15:53.041Z CLI info [main]  [shubhamsingh_afHsCG]  [uq0avnqzuqkuedb2ea7zairnpcr46zgt85immqgj]  [f3080ac0-65f6-4f27-95d8-a474bd7d1060]  Received graceful signal termination, performing cleanup
+2025-07-26T08:16:23.588Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:16:23.815Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:16:23.834Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  Starting testhub from 13672:0
+2025-07-26T08:16:23.834Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:16:23.834Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#14","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:16:23.834Z CLI info  [shubhamsingh_afHsCG]   [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:16:24.561Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  startBuild: response=bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat
+2025-07-26T08:16:24.563Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:16:31.784Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:16:32.003Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:16:32.004Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:16:32.004Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:16:35.451Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:16:36.430Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  stopBuild: bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat request={"finished_at":"2025-07-26T08:16:35.451Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:16:36.433Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:16:36.434Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  Visit https://observability.browserstack.com/builds/bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:16:40.500Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:16:40.858Z CLI info  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:16:41.818Z CLI info [main]  [shubhamsingh_afHsCG]  [bmqc6ghtufd8ekj1e1jgfzf5xfqrmh73cjbltiat]  [ac3dae25-10e7-46d8-9d3c-b06798a7482c]  Received graceful signal termination, performing cleanup
+2025-07-26T08:19:12.068Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:19:12.296Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:19:12.312Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [852efd1b-eead-4b64-9451-a74de88a0824]  Starting testhub from 13777:0
+2025-07-26T08:19:12.312Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [852efd1b-eead-4b64-9451-a74de88a0824]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:19:12.312Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#15","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:19:12.313Z CLI info  [shubhamsingh_afHsCG]   [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:19:13.070Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [852efd1b-eead-4b64-9451-a74de88a0824]  startBuild: response=vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7
+2025-07-26T08:19:13.072Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:19:20.678Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:19:20.987Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:19:20.988Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:19:20.988Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:19:24.543Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:19:24.533Z'
+  },
+  logs: []
+} to 13777:0
+2025-07-26T08:19:24.656Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:19:24.649Z',
+      uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1'
+    }
+  ]
+} to 13777:0
+2025-07-26T08:19:24.662Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:19:24.660Z',
+      uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1'
+    }
+  ]
+} to 13777:0
+2025-07-26T08:19:24.667Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:19:24.666Z',
+      uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1'
+    }
+  ]
+} to 13777:0
+2025-07-26T08:19:24.699Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:19:24.697Z',
+      uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1'
+    }
+  ]
+} to 13777:0
+2025-07-26T08:19:25.082Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:19:24.533Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13777:0
+2025-07-26T08:19:25.082Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:19:31.698Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:19:24.533Z',
+    finished_at: '2025-07-26T08:19:31.695Z'
+  },
+  logs: []
+} to 13777:0
+2025-07-26T08:19:31.716Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:19:31.712Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13777:0
+2025-07-26T08:19:33.088Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '8e684bda-3e0d-4a34-95c8-ab384d6a68b1',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:19:24.533Z',
+      finished_at: '2025-07-26T08:19:31.695Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:19:31.712Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 13777:0
+2025-07-26T08:19:33.088Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:19:35.803Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:19:35.800Z',
+      uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      kind: 'TEST_LOG',
+      message: '"[[BSTACK_SET_CUSTOM_TAG||ID=TC-972811]]"',
+      level: 'INFO',
+      test_run_uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52'
+    }
+  ]
+} to 13777:0
+2025-07-26T08:19:37.090Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 13777:0
+2025-07-26T08:19:37.092Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:19:37.532Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    integrations: { browserstack: [Object] }
+  }
+} to 13777:0
+2025-07-26T08:19:37.539Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T13:49:35.809949","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T13:49:31.712535","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"41f9770d-895b-4be8-8170-c9ed5d789d52","test_ended_at":"2025-07-26T13:49:35.811632","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplication","test_hook_state":"sdk:hook:70b3de08","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T13:49:24.533139","hook_id":"8e684bda-3e0d-4a34-95c8-ab384d6a68b1","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T13:49:31.695574","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"8e684bda-3e0d-4a34-95c8-ab384d6a68b1","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplication","logs":[]}
+2025-07-26T08:19:37.540Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 4099,
+    started_at: '2025-07-26T08:19:31.712Z',
+    finished_at: '2025-07-26T08:19:35.811Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ '8e684bda-3e0d-4a34-95c8-ab384d6a68b1' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13777:0
+2025-07-26T08:19:37.549Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '6d6142e5-8431-4e36-b291-49f3697c4416',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:19:37.546Z'
+  },
+  logs: []
+} to 13777:0
+2025-07-26T08:19:39.095Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 4099,
+      started_at: '2025-07-26T08:19:31.712Z',
+      finished_at: '2025-07-26T08:19:35.811Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '6d6142e5-8431-4e36-b291-49f3697c4416',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:19:37.546Z'
+    },
+    logs: []
+  }
+] to 13777:0
+2025-07-26T08:19:39.103Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:19:39.318Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '6d6142e5-8431-4e36-b291-49f3697c4416',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:19:37.546Z',
+    finished_at: '2025-07-26T08:19:39.305Z'
+  },
+  logs: []
+} to 13777:0
+2025-07-26T08:19:41.095Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '6d6142e5-8431-4e36-b291-49f3697c4416',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '41f9770d-895b-4be8-8170-c9ed5d789d52',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:19:37.546Z',
+      finished_at: '2025-07-26T08:19:39.305Z'
+    },
+    logs: []
+  }
+] to 13777:0
+2025-07-26T08:19:41.096Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:19:41.934Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:19:42.727Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  stopBuild: vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7 request={"finished_at":"2025-07-26T08:19:39.708Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:19:42.729Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:19:42.734Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Visit https://observability.browserstack.com/builds/vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7 to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:19:46.794Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:19:47.108Z CLI info  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:19:48.227Z CLI info [main]  [shubhamsingh_afHsCG]  [vsv6vcllwhscrvmyncqzucifytbqyyjave1uw1l7]  [852efd1b-eead-4b64-9451-a74de88a0824]  Received graceful signal termination, performing cleanup
+2025-07-26T08:29:55.414Z CLI info [main]     Server listening on port: 5400
+2025-07-26T08:29:55.640Z CLI info     Config : {"userName":"shubhamsingh_afHsCG","accessKey":"kaY8GxvVHEz75c4ABpfH","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","framework":"testng","platforms":[{"os":"OS X","osVersion":"Sequoia","browserName":"Chrome","browserVersion":"latest"}],"parallelsPerPlatform":1,"source":"testng:sample-master:v1.1","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-26T08:29:55.656Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Starting testhub from 13996:0
+2025-07-26T08:29:55.656Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  startBuild: payload=
+
+{"started_at":"2025-07-26T08:29:55.656Z","host_info":{"hostname":"Shubhams-MacBook-Air-3.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"0aeeda21e210b98dc14e3aa1e19219d03117c131","short_sha":"0aeeda21e2","branch":"main","tag":null,"committer":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","committer_date":"2025-07-26T08:05:45.000Z","author":"shubhamksingh10 <shubhamkumar.singh@sendinblue.com>","author_date":"2025-07-26T08:05:45.000Z","commit_message":"changes","root":"/Users/shubhamkumar.singh","common_git_dir":"/Users/shubhamkumar.singh/.git","worktree_git_dir":"/Users/shubhamkumar.singh/.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shbhmsngh/Testathon-codebreakers"}]},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#16","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.38.1","cliVersion":"1.6.0","language":"java","testFramework":{"name":"selenium","version":"4.1.4"},"source":"testng:sample-master:v1.1"},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-26T08:29:55.656Z CLI info  [shubhamsingh_afHsCG]   [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-07-26T08:29:56.428Z CLI info [testhub:module]  [shubhamsingh_afHsCG]   [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  startBuild: response=4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r
+2025-07-26T08:29:56.430Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:30:05.146Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-26T08:30:05.427Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-07-26T08:30:05.428Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-26T08:30:05.429Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-07-26T08:30:09.270Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:09.259Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:09.403Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:09.397Z',
+      uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:09.409Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:09.407Z',
+      uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:09.418Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:09.415Z',
+      uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:09.474Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:09.472Z',
+      uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:10.437Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:09.259Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13996:0
+2025-07-26T08:30:10.439Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:16.893Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:09.259Z',
+    finished_at: '2025-07-26T08:30:16.885Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:16.908Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:30:16.904Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:18.443Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '435f1e01-8b6a-4f45-8cc4-55d027e51fe7',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:09.259Z',
+      finished_at: '2025-07-26T08:30:16.885Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:30:16.904Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:18.444Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:18.742Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:18.739Z',
+      uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      kind: 'TEST_LOG',
+      message: '"[[BSTACK_SET_CUSTOM_TAG||ID=TC-104]]"',
+      level: 'INFO',
+      test_run_uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:20.455Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 13996:0
+2025-07-26T08:30:20.457Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:21.101Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    integrations: { browserstack: [Object] }
+  }
+} to 13996:0
+2025-07-26T08:30:21.108Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T14:00:18.755594","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T14:00:16.904990","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because \"this.headerLogo\" is null","\tat com.browserstack.pages.LoginPage.verifyHeader(LoginPage.java:38)","\tat com.browserstack.LoginPageTest.LoginIntoApplication(LoginPageTest.java:19)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)","\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)","\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)","\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)","\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)","\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)","\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)","\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)","\tat org.testng.TestRunner.privateRun(TestRunner.java:794)","\tat org.testng.TestRunner.run(TestRunner.java:596)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)","\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1575)"]}],"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"9c44b09b-8164-473f-9cba-5dee4f8684ee","test_ended_at":"2025-07-26T14:00:18.757022","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplication","test_hook_state":"sdk:hook:34500765","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because \"this.headerLogo\" is null","test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"failed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T14:00:09.259415","hook_id":"435f1e01-8b6a-4f45-8cc4-55d027e51fe7","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T14:00:16.885385","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"435f1e01-8b6a-4f45-8cc4-55d027e51fe7","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplication","logs":[]}
+2025-07-26T08:30:21.109Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    name: 'LoginIntoApplication',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplication() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplication',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 1853,
+    started_at: '2025-07-26T08:30:16.904Z',
+    finished_at: '2025-07-26T08:30:18.757Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.headerLogo" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ '435f1e01-8b6a-4f45-8cc4-55d027e51fe7' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:21.119Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'd88c07b7-5277-4ea3-bfb5-e17aec0c5350',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:21.116Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:22.462Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      name: 'LoginIntoApplication',
+      body: [Object],
+      identifier: 'LoginIntoApplication',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 1853,
+      started_at: '2025-07-26T08:30:16.904Z',
+      finished_at: '2025-07-26T08:30:18.757Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.headerLogo" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'd88c07b7-5277-4ea3-bfb5-e17aec0c5350',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:21.116Z'
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:22.464Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:22.766Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'd88c07b7-5277-4ea3-bfb5-e17aec0c5350',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:21.116Z',
+    finished_at: '2025-07-26T08:30:22.752Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:22.783Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '7b24cf1f-c24d-4a37-8548-2bea23c62e81',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:22.780Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:24.459Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'd88c07b7-5277-4ea3-bfb5-e17aec0c5350',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '9c44b09b-8164-473f-9cba-5dee4f8684ee',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:21.116Z',
+      finished_at: '2025-07-26T08:30:22.752Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '7b24cf1f-c24d-4a37-8548-2bea23c62e81',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:22.780Z'
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:24.460Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:28.608Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '7b24cf1f-c24d-4a37-8548-2bea23c62e81',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:22.780Z',
+    finished_at: '2025-07-26T08:30:28.603Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:28.621Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    name: 'LoginIntoApplicationWithEmptyCredentials',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplicationWithEmptyCredentials() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplicationWithEmptyCredentials',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:30:28.617Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:30.338Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:30.315Z',
+      uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      kind: 'TEST_LOG',
+      message: '"[[BSTACK_SET_CUSTOM_TAG||ID=TC-103]]"',
+      level: 'INFO',
+      test_run_uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:30.462Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '7b24cf1f-c24d-4a37-8548-2bea23c62e81',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:22.780Z',
+      finished_at: '2025-07-26T08:30:28.603Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      name: 'LoginIntoApplicationWithEmptyCredentials',
+      body: [Object],
+      identifier: 'LoginIntoApplicationWithEmptyCredentials',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:30:28.617Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 13996:0
+2025-07-26T08:30:30.463Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:32.547Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    integrations: { browserstack: [Object] }
+  }
+} to 13996:0
+2025-07-26T08:30:32.555Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T14:00:30.350143","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T14:00:28.617451","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because \"this.headerLogo\" is null","\tat com.browserstack.pages.LoginPage.verifyHeader(LoginPage.java:38)","\tat com.browserstack.LoginPageTest.LoginIntoApplicationWithEmptyCredentials(LoginPageTest.java:52)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)","\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)","\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)","\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)","\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)","\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)","\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)","\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)","\tat org.testng.TestRunner.privateRun(TestRunner.java:794)","\tat org.testng.TestRunner.run(TestRunner.java:596)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)","\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1575)"]}],"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplicationWithEmptyCredentials() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"d358973a-2eee-479c-8e71-1d0e92b09403","test_ended_at":"2025-07-26T14:00:30.350476","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplicationWithEmptyCredentials","test_hook_state":"sdk:hook:809b148c","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because \"this.headerLogo\" is null","test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"failed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T14:00:22.780892","hook_id":"7b24cf1f-c24d-4a37-8548-2bea23c62e81","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T14:00:28.603177","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"7b24cf1f-c24d-4a37-8548-2bea23c62e81","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplicationWithEmptyCredentials","logs":[]}
+2025-07-26T08:30:32.555Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    name: 'LoginIntoApplicationWithEmptyCredentials',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplicationWithEmptyCredentials() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplicationWithEmptyCredentials',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 1733,
+    started_at: '2025-07-26T08:30:28.617Z',
+    finished_at: '2025-07-26T08:30:30.350Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.headerLogo" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ '7b24cf1f-c24d-4a37-8548-2bea23c62e81' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:32.568Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '8dbeb291-b961-4786-9aa7-bd9daaa05a2e',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:32.565Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:34.241Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '8dbeb291-b961-4786-9aa7-bd9daaa05a2e',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:32.565Z',
+    finished_at: '2025-07-26T08:30:34.231Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:34.271Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'a6f4b6cb-dcb7-475f-bb66-96ca61c94976',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:34.266Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:34.462Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      name: 'LoginIntoApplicationWithEmptyCredentials',
+      body: [Object],
+      identifier: 'LoginIntoApplicationWithEmptyCredentials',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 1733,
+      started_at: '2025-07-26T08:30:28.617Z',
+      finished_at: '2025-07-26T08:30:30.350Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.headerLogo" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '8dbeb291-b961-4786-9aa7-bd9daaa05a2e',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:32.565Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '8dbeb291-b961-4786-9aa7-bd9daaa05a2e',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: 'd358973a-2eee-479c-8e71-1d0e92b09403',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:32.565Z',
+      finished_at: '2025-07-26T08:30:34.231Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'a6f4b6cb-dcb7-475f-bb66-96ca61c94976',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:34.266Z'
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:34.462Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:40.377Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'a6f4b6cb-dcb7-475f-bb66-96ca61c94976',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:34.266Z',
+    finished_at: '2025-07-26T08:30:40.372Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:40.388Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    name: 'LoginIntoApplicationWithInvalidCredentials',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplicationWithInvalidCredentials() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplicationWithInvalidCredentials',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-26T08:30:40.385Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:40.465Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'a6f4b6cb-dcb7-475f-bb66-96ca61c94976',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:34.266Z',
+      finished_at: '2025-07-26T08:30:40.372Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      name: 'LoginIntoApplicationWithInvalidCredentials',
+      body: [Object],
+      identifier: 'LoginIntoApplicationWithInvalidCredentials',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-26T08:30:40.385Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:40.465Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:42.042Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-07-26T08:30:42.037Z',
+      uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      kind: 'TEST_LOG',
+      message: '"[[BSTACK_SET_CUSTOM_TAG||ID=TC-103]]"',
+      level: 'INFO',
+      test_run_uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0'
+    }
+  ]
+} to 13996:0
+2025-07-26T08:30:42.467Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 13996:0
+2025-07-26T08:30:42.468Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:43.732Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    integrations: { browserstack: [Object] }
+  }
+} to 13996:0
+2025-07-26T08:30:43.741Z CLI warn [observability:java:testng]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"testng-browserstack-master-0","test_result_at":"2025-07-26T14:00:42.050779","test_scope":"Default Suite.com.browserstack.LoginPageTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-07-26T14:00:40.385533","platform_index":0,"test_failure":[{"backtrace":["java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because \"this.headerLogo\" is null","\tat com.browserstack.pages.LoginPage.verifyHeader(LoginPage.java:38)","\tat com.browserstack.LoginPageTest.LoginIntoApplicationWithInvalidCredentials(LoginPageTest.java:68)","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)","\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)","\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)","\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)","\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)","\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)","\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)","\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)","\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1597)","\tat org.testng.TestRunner.privateRun(TestRunner.java:794)","\tat org.testng.TestRunner.run(TestRunner.java:596)","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)","\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)","\tat java.base/java.lang.Thread.run(Thread.java:1575)"]}],"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Default Suite","com.browserstack.LoginPageTest"],"test_code":"public void com.browserstack.LoginPageTest.LoginIntoApplicationWithInvalidCredentials() throws java.lang.Exception","test_id":"testng-browserstack-master-0@0","test_uuid":"dc7b8c32-533b-48bb-b0af-b6586018c7d0","test_ended_at":"2025-07-26T14:00:42.051266","automate_session_name":"testng-browserstack-master-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.LoginPageTest-LoginIntoApplicationWithInvalidCredentials","test_hook_state":"sdk:hook:6d2955f4","custom_metadata":{},"test_failure_reason":"java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebElement.isDisplayed()\" because \"this.headerLogo\" is null","test_location":"src/test/java/com/browserstack/LoginPageTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src/test/java/com/browserstack/LoginPageTest.java","test_result":"failed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java","event_started_at":"2025-07-26T14:00:34.266001","hook_id":"a6f4b6cb-dcb7-475f-bb66-96ca61c94976","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-07-26T14:00:40.372798","test_location":"testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java"}]},"hook_id":"a6f4b6cb-dcb7-475f-bb66-96ca61c94976","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"LoginIntoApplicationWithInvalidCredentials","logs":[]}
+2025-07-26T08:30:43.741Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    name: 'LoginIntoApplicationWithInvalidCredentials',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.LoginPageTest.LoginIntoApplicationWithInvalidCredentials() throws java.lang.Exception'
+    },
+    identifier: 'LoginIntoApplicationWithInvalidCredentials',
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'src/test/java/com/browserstack/LoginPageTest.java',
+    meta: {},
+    result: 'failed',
+    duration_in_ms: 1666,
+    started_at: '2025-07-26T08:30:40.385Z',
+    finished_at: '2025-07-26T08:30:42.051Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.headerLogo" is null',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'testng-browserstack-master-0' },
+    hooks: [ 'a6f4b6cb-dcb7-475f-bb66-96ca61c94976' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:43.753Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'f38620af-bd69-4710-9838-7469494f4233',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:43.750Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:44.468Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      name: 'LoginIntoApplicationWithInvalidCredentials',
+      body: [Object],
+      identifier: 'LoginIntoApplicationWithInvalidCredentials',
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      scopes: [Array],
+      file_name: 'src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'src/test/java/com/browserstack/LoginPageTest.java',
+      meta: {},
+      result: 'failed',
+      duration_in_ms: 1666,
+      started_at: '2025-07-26T08:30:40.385Z',
+      finished_at: '2025-07-26T08:30:42.051Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.headerLogo" is null',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'f38620af-bd69-4710-9838-7469494f4233',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:43.750Z'
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:44.469Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:46.640Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'f38620af-bd69-4710-9838-7469494f4233',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.com.browserstack.LoginPageTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'com.browserstack.LoginPageTest' ],
+    file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+    started_at: '2025-07-26T08:30:43.750Z',
+    finished_at: '2025-07-26T08:30:46.635Z'
+  },
+  logs: []
+} to 13996:0
+2025-07-26T08:30:48.470Z CLI info [testhub:request-queue-handler]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'f38620af-bd69-4710-9838-7469494f4233',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: 'dc7b8c32-533b-48bb-b0af-b6586018c7d0',
+      body: [Object],
+      scope: 'Default Suite.com.browserstack.LoginPageTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      vc_filepath: 'Downloads/testng-browserstack-master/testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      location: 'testng-browserstack-master/src/test/java/com/browserstack/LoginPageTest.java',
+      started_at: '2025-07-26T08:30:43.750Z',
+      finished_at: '2025-07-26T08:30:46.635Z'
+    },
+    logs: []
+  }
+] to 13996:0
+2025-07-26T08:30:48.471Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-26T08:30:49.260Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-26T08:30:49.961Z CLI info [testhub:module]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  stopBuild: 4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r request={"finished_at":"2025-07-26T08:30:47.035Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-26T08:30:49.963Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-26T08:30:49.966Z CLI info [observability:module]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Visit https://observability.browserstack.com/builds/4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r to view build report, insights, and many more debugging information all at one place!
+2025-07-26T08:30:54.028Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-07-26T08:30:54.349Z CLI info  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-07-26T08:30:55.395Z CLI info [main]  [shubhamsingh_afHsCG]  [4zjcxupwdwqyfin98pt69k4wdfvjii9lykvmv84r]  [e8dc2d17-3e70-41a7-adfd-d3fe46a89dbb]  Received graceful signal termination, performing cleanup
