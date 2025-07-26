@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and accessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: YOUR_USERNAME
-accessKey: YOUR_ACCESS_KEY
+userName: shubhamsingh_afHsCG
+accessKey: kaY8GxvVHEz75c4ABpfH
 
 # ======================
 # BrowserStack Reporting
@@ -31,16 +31,16 @@ framework: testng
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
   - os: OS X
-    osVersion: Big Sur
+    osVersion: Sequoia
     browserName: Chrome
     browserVersion: latest
-  - os: Windows
-    osVersion: 10
-    browserName: Edge
-    browserVersion: latest
-  - deviceName: Samsung Galaxy S22 Ultra
-    browserName: chrome # Try 'samsung' for Samsung browser
-    osVersion: 12.0
+#  - os: Windows
+#    osVersion: 10
+#    browserName: Edge
+#    browserVersion: latest
+#  - deviceName: Samsung Galaxy S22 Ultra
+#    browserName: chrome # Try 'samsung' for Samsung browser
+#    osVersion: 12.0
     
 # =======================
 # Parallels per Platform
